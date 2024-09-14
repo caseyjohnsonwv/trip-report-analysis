@@ -10,7 +10,7 @@ This is mostly a project for me to play with classification models.
 4. Train a classification model that can predict, A: "Was the money worth spending?", and B: "Was this a positive experience?"
 
 
-## Results
+## Feature Lift Analysis
 
 After training a Random Forest classifier on 183 LLM-enriched trip report posts:
 
@@ -21,7 +21,7 @@ After training a Random Forest classifier on 183 LLM-enriched trip report posts:
 | Food Sentiment | 16.1% | 9.8% |
 | Crowd Sentiment | 11.2% | 13.3% |
 
-I tried XGBoost as well - it gave much more favor to ride sentiment, but the overall accuracy of the model didn't improve substantially. I have a couple hypotheses to explore about this result, but I don't doubt its accuracy.
+I tried XGBoost as well - it gave much more favor to ride sentiment, but the overall accuracy of the model didn't improve substantially (hovering around 70-80% for both). I have a couple hypotheses to explore about this result, but I don't doubt it.
 
 
 ## Quickstart
